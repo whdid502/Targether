@@ -1,0 +1,52 @@
+@charset "UTF-8";
+
+#entire{
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+#top_title{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  border: solid 1px;
+}
+#middle_discription{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+.idv_tgt_link{
+  display: flex;
+  flex-direction: column;
+  align-items: baseline;
+  text-align: center;
+  padding: auto;
+  border: solid 1px;
+}
+#main_page_link{
+  display: flex;
+  flex-direction: column;
+  align-items: baseline;
+  text-align: center;
+  padding: auto;
+  border: solid 1px;
+}
+#bottom_introduce{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: auto;
+}
+#introduce_link{
+  display: flex;
+  flex-direction: column;
+  align-items: baseline;
+  text-align: center;
+  padding: auto;
+  border: solid 1px;
+}
