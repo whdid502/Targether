@@ -1,1 +1,13 @@
 @charset "UTF-8";
+
+#entire{
+  width: 100%;
+}
+
+#main{
+  width: 100%;
+  background-image: url(https://cdn.pixabay.com/photo/2018/08/16/11/36/mentor-3610255_960_720.jpg);
+  background-repeat: no-repeat;
+  color: white;
+
+}
