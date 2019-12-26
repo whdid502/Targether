@@ -2,6 +2,7 @@
 
 #entire{
   width: 100%;
+  font-family: 'Stylish', sans-serif;
 }
 #main{
   width: 100%;
@@ -21,7 +22,22 @@
 }
 #login_wrap{
   align-self: flex-end;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  height: 35px;
+  width: 500px;
 }
-.font_big{
+.font_huge{
   font-size: 100px;
+}
+.font_middle{
+  font-size: 25px;
+}
+.align_center{
+  text-align: center;
+}
+.button_login{
+  width: 90px;
+  height: 35px;
 }
