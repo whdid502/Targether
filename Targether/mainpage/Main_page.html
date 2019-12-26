@@ -7,20 +7,26 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-
+    <link rel="stylesheet" href="main_style/mainstyle.css">
     <title>Targether, 함께하는 힘!</title>
   </head>
   <body>
     <div id="entire">
-      <div id="main">/<!--로그인창, 메뉴네비개이션, 제목, 한줄설명 -->
-          <nav><!-- 각목록으로 이동하는 목록 -->
-
-          </nav>
+      <div id="main"><!--로그인창, 메뉴네비개이션, 제목, 한줄설명 -->
+        <div id="nav_button" class="btn-group" role="group">
+         <button id="btnGroupDrop1" type="button" class="btn btn-secondary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+           Dropdown
+         </button>
+         <div class="dropdown-menu" aria-labelledby="btnGroupDrop1">
+           <a class="dropdown-item" href="#">Dropdown link</a>
+           <a class="dropdown-item" href="#">Dropdown link</a>
+         </div>
+       </div>
           <div>
-              <h1>Targether, 함께하는 힘!</h1>
+              <h1 class="font_big">Targether, 함께하는 힘!</h1>
               <span>Targether는 이러이러한 서비스입니다!얄라리얄라리</span>
           </div>
-          <div><!--로그인묶음-->
+          <div id="login_wrap"><!--로그인묶음-->
               <div>
                   id : <input type="text">
               </div>

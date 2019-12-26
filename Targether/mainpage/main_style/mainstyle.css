@@ -3,11 +3,25 @@
 #entire{
   width: 100%;
 }
-
 #main{
   width: 100%;
-  background-image: url(https://cdn.pixabay.com/photo/2018/08/16/11/36/mentor-3610255_960_720.jpg);
+  height: 600px;
+  background-image: url( https://cdn.pixabay.com/photo/2018/08/16/11/36/mentor-3610255_960_720.jpg );
   background-repeat: no-repeat;
+  background-size: cover;
+  /* background-color: #292b2c; */
   color: white;
-
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+#nav_button{
+  align-self: flex-start;
+}
+#login_wrap{
+  align-self: flex-end;
+}
+.font_big{
+  font-size: 100px;
 }
