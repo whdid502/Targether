@@ -19,16 +19,26 @@
 }
 #nav_button{
   align-self: flex-start;
+  margin: 10px;
 }
 #login_wrap{
   align-self: flex-end;
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
-  height: 35px;
-  width: 500px;
+  justify-content: space-between;
+  width: 450px;
+  margin: 10px;
 }
-.font_huge{
+.id_insert{
+  width: 150px;
+}
+.pw_insert{
+  width: 150px;
+}
+.login_button{
+  width: 100px;
+}
+h1{
   font-size: 100px;
 }
 .font_middle{
@@ -36,8 +46,4 @@
 }
 .align_center{
   text-align: center;
-}
-.button_login{
-  width: 90px;
-  height: 35px;
 }
