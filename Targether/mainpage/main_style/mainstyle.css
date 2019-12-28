@@ -29,15 +29,6 @@
   width: 450px;
   margin: 10px;
 }
-.id_insert{
-  width: 150px;
-}
-.pw_insert{
-  width: 150px;
-}
-.login_button{
-  width: 100px;
-}
 h1{
   font-size: 100px;
 }
@@ -46,4 +37,18 @@ h1{
 }
 .align_center{
   text-align: center;
+}
+#introduce{
+  background-color: #045FB4;
+  width: 100%;
+  height: 300px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+.second_div_img{
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
 }
